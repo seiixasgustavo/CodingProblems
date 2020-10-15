@@ -26,16 +26,19 @@ struct recorder
 int main()
 {
   recorder x = recorder(5);
+
   x.record(1);
   x.record(2);
   x.record(3);
   x.record(4);
   x.record(5);
   x.record(6);
+
   cout << x.getIthElement(0) << endl;
   cout << x.getIthElement(1) << endl;
   cout << x.getIthElement(2) << endl;
   cout << x.getIthElement(3) << endl;
   cout << x.getIthElement(4) << endl;
+
   return 0;
 }
